@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Kings&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #e0e1dd;
+    text-align: center;
+    text-decoration: none;
+}
+body{
+    height: 500px;
+   background-color: #000000;
+}
+/*----------------------------header--------------------------*/
+header{
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/fondo 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header img{
+    width: 100%;
+}
+/*-----------------lista-------------*/
+.nav{
+    text-align: right;
+    padding: 10px;
+}
+.nav li{
+    display: inline;
+    color: #ffba08;
+    font-size: 22px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffba08;
+}
+.nav li a:hover{
+    border-bottom: solid 2px #ffba08;
+}
+/*-----------------lista-------------*/
+#color{
+    color: #ffffff;
+}
+header h4{
+    color: #ffba08;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+header h1{
+    color: #ffba08;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: "Kings", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+}
+header blockquote{
+    padding-bottom: 50px;
+    color: #ffba08;
+    font-family: "Kings", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+/*---------------------------section-----------------------------*/
+section{
+    background-color: #000000;
+}
+/*---------------------------section principal-----------------------------*/
+#principal{
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
+#principal h2{
+    color: #000000;
+}
+#div-prin{
+    display: flex;
+    justify-content: center;
+    text-align: center;;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#logo{
+    width: 200px;
+    height: 220px;
+}
+#div-prin p{
+    width: 500px;
+    padding-top: 9%;
+    padding-left: 20px;
+    color: #000000;
+}
+samp{
+    color: #ffba08; 
+}
+
+h3{
+    color: #ffba08;
+}
+p{
+    color: #ffba08;
+}
+#link{
+    padding-left: 100px;
+}
+a img{
+    width: 80px;
+    height: 80px;
+}
+
+/*----------------------------------------------------------*/  
+.contenedor{
+    background: #000000;
+    margin: 30px;
+    border-radius: 15px;
+
+}
+.aside{
+    background: #ffffff;
+    display: inline-block;
+    width: 14%;
+    vertical-align: top;
+    height: 80vh;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+.aside li{
+    color: #000000;
+    padding-left: 10px;
+    text-align: left;
+    list-style: none;
+}
+.aside a{
+    color: #000000;
+    font-size:  20px;
+
+}
+.main{
+    display: inline-block;
+    width: 82%;
+    vertical-align: top;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/peli.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+
+.main h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: "Kings", cursive;
+    font-style: normal;
+    font-size: 40px;
+}
+.main h3{
+    font-size: 40px;
+    margin-top: 100px;
+    font-family: "Kings", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.main a{
+    color: #0d0d0d;
+}
+
+#color2{
+    color: #ffba08;
+    border-bottom: solid 2px #ffba08;
+}
